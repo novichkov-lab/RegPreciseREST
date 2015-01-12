@@ -1,6 +1,6 @@
 package com.lbl.regprecise.rest.test;
 
-import static com.lbl.regprecise.rest.test.RegPreciseWebResource.webResource;
+import static com.lbl.regprecise.rest.test.RegPreciseWebResource.*;
 import static org.junit.Assert.assertEquals;
 
 import javax.ws.rs.core.MediaType;
