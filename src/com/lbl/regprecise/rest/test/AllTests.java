@@ -9,8 +9,20 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
+        DatabaseReleaseResourceTest.class,
+        GenesResourceTest.class,
         GenomesResourceTest.class,
-        RegulonResourceTest.class
+        GenomeStatsResourceTest.class,
+        RegulatorsResourceTest.class,
+        RegulogCollectionsResourceTest.class,
+        RegulogCollectionStatsResourceTest.class,
+        RegulogResourceTest.class,
+        RegulogsResourceTest.class,
+        RegulonResourceTest.class,
+        SearchExtRegulonResourceTest.class,
+        SearchRegulonResourceTest.class,
+        SitesResourceTest.class
+        
 })
 public class AllTests {
 }
